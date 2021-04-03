@@ -185,3 +185,10 @@ input {
     margin-top: -50px;
   }
 }
+
+@media screen and (min-width: 100px) and (max-width: 400px) {
+  .screen {
+    margin-left: -16px;
+    width: 399px;
+  }
+}
