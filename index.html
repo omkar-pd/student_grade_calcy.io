@@ -22,27 +22,29 @@
                         </div>
                     </div>
                     <div class="screen-body-item">
-                        <div class="app-form">
+                        <div class="app-form" id="app-form">
                             <div class="app-form-group">
-                            <input type="number" class="app-form-control" placeholder="Java" id="java" max='100'>
-                            </div>
-                            <div class="app-form-group">
-                            <input type="number" class="app-form-control" placeholder="Data Structure" id="ds"              max="100">
+                            <input type="number" class="app-form-control" placeholder="Java" id="java" max='100' autocomplete="off">
                             </div>
                             <div class="app-form-group">
-                            <input type="number" class="app-form-control" placeholder="Networking" id="net" max="100" id="e">
+                            <input type="number" class="app-form-control" placeholder="Data Structure" id="ds"              max="100" autocomplete="off">
                             </div>
                             <div class="app-form-group">
-                            <input type="number" class="app-form-control" placeholder="Operating System" id="os" max="100" id="e">
+                            <input type="number" class="app-form-control" placeholder="Networking" id="net" max="100" id="e" autocomplete="off">
                             </div>
                             <div class="app-form-group">
-                            <input type="number" class="app-form-control" placeholder="OOSE" id="oose" max="100" itemid="e">
+                            <input type="number" class="app-form-control" placeholder="Operating System" id="os" max="100" id="e" autocomplete="off">
                             </div>
-                            <div>
-                            <input type="button" name="" value="show Percentage" class="app-form-button"
-                                    onclick="validate()" >
+                            <div class="app-form-group">
+                            <input type="number" class="app-form-control" placeholder="OOSE" id="oose" max="100" itemid="e" autocomplete="off">
                             </div>
-                        </div> </div>
+                            
+                        </div>
+                    <div class="btn">
+                        <input type="button" name="" value="Add Subject" class="app-form-button" onclick="addsub()">
+                    
+                        <input type="button" name="" value="show Percentage" class="app-form-button" onclick="validate()">
+                    </div> </div>
             </div>
                 <div class="app-form-group showdata">
                     <p id="showData"> </p>
